@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+font-family: "Playfair Display", serif;
+font-family: "Ubuntu", sans-serif; */
+   
+
+header{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-left: 5%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.logo{
+width: 20%;
+
+}
+
+nav{
+
+width: 50%;
+}
+
+header nav ul{
+    display: flex ;
+    list-style: none;
+    justify-content: end;
+
+}
+
+header nav ul li{
+margin-left: 50px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #626262; 
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif; 
+}
+
+.banner{
+    width: 90%;
+margin-left: 5%;
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+ .photodiary{
+    width: 80%;
+
+    margin: auto;
+    
+    margin-top: 70px;
+    
+    margin-bottom: 70px;
+}
+
+.photodiary h5{
+    font-family: "Ubuntu", sans-serif;
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+        
+    font-weight: 400;
+        
+    font-size: 14px;
+        
+    margin-bottom: 15px;   
+}
+
+.photodiary h1{
+    color: #626262;
+    
+text-transform: capitalize;
+    
+font-weight: 400;
+    
+font-size: 30px;
+    
+margin-bottom: 15px;
+font-family: "Playfair Display", serif;
+    
+}
+
+.photodiary p{
+    color: #626262;
+    font-size: 15px;
+    line-height: 24px;
+    
+margin-bottom: 15px;
+font-family: "Playfair Display", serif;
+    
+}
+.photodiary h6{
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+        
+    font-weight: 400;
+        
+    font-size: 14px;
+        
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;      
+} 
+
+.feature_section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.feature_item{
+    width: 48%;
+    margin-bottom: 70px;
+}
+
+.feature_item img{
+width: 100%;
+margin-bottom: 15px;
+}
+
+.feature_item h5{
+    font-family: "Ubuntu", sans-serif;
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+        
+    font-weight: 400;
+        
+    font-size: 14px;
+        
+    margin-bottom: 15px;  
+}
+
+.feature_item h1{
+    color: #626262;
+    
+    text-transform: capitalize;
+        
+    font-weight: 400;
+        
+    font-size: 30px;
+        
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+        
+}
+
+.feature_item p{
+    color: #626262;
+    font-size: 15px;
+    line-height: 24px;
+    
+margin-bottom: 15px;
+font-family: "Playfair Display", serif;
+}
+
+.newsletter{
+background-color: #f0f0f0;
+padding: 70px 0;
+margin-bottom: 70px;
+}
+.content{
+ width: 29%; 
+ margin: auto;  
+}
+
+.content h2{
+    color: #626262;
+    
+    text-transform: capitalize;
+        
+    font-weight: 400;
+        
+    font-size: 30px;
+        
+    margin-bottom: 50px;
+    font-family: "Playfair Display", serif;   
+}
+.content input{
+   border: none;
+   border-bottom: 1px solid #000;
+   width: 100%; 
+   background: transparent;
+   font-family: "Playfair Display", serif;  
+}
+
+.content input:focus{
+outline: none;
+}
+.content input::placeholder{
+    font-family: "Playfair Display", serif;  
+    color: #626262;
+    
+}
+
+.loadmore {
+text-align: center;
+margin: 50px 0;
+}
+
+.loadmore button{
+background: transparent;
+border: none;
+border: 1px solid #000;
+font-size: 16px;
+padding: 20px 30px;
+text-transform: capitalize;
+font-family: "Playfair Display", serif;
+}
+
+footer{
+background-color: #f0f0f0;
+padding: 30px 0;
+margin-top: 200px;
+}
+
+.footer_content{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+.terms{
+
+}
+
+.terms ul{
+  list-style: none;
+  display: flex;  
+}
+
+.terms ul li{
+  margin-right: 15px;  
+}
+
+.terms ul li a{
+  text-decoration: none; 
+  text-transform: capitalize;
+  font-size: 14px;
+  color: black;
+  font-family: "Playfair Display", serif;
+   
+}
+
+.social_icon{
+
+}
+.social_icon ul{
+    list-style: none;
+display: flex;
+
+}
+
+.social_icon ul li{
+    margin-left: 15px;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+}
+
+.social_icon ul li a{
+    color: #626262;
+    text-decoration: none;
+
+}
+
